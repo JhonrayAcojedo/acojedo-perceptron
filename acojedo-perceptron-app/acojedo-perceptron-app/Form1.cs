@@ -11,11 +11,11 @@ namespace acojedo_perceptron_app
 {
     public partial class Form1 : Form
     {
-        int[] w0 = new int[26] { 0,0,0,0,0,
-                                 0,0,0,0,0,
-                                 0,0,0,0,0,
-                                 0,0,0,0,0,
-                                 0,0,0,0,0,
+        int[] w0 = new int[26] { 1,1,1,1,1,
+                                 1,0,0,1,1,
+                                 1,0,1,0,1,
+                                 1,1,0,0,1,
+                                 1,1,1,1,1,
                                  0};
         int[] w1 = new int[26] { 1,1,1,0,0,
                                  0,0,1,0,0,
@@ -70,7 +70,7 @@ namespace acojedo_perceptron_app
                                  1,1,1,1,1,
                                  0,0,0,0,1,
                                  1,1,1,1,1,
-                                 0};
+                                 1};
         public Form1()
         {
             InitializeComponent();
