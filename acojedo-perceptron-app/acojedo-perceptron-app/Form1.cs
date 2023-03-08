@@ -71,14 +71,13 @@ namespace acojedo_perceptron_app
                                  0,0,0,0,1,
                                  1,1,1,1,1,
                                  1};
-        public Form1()
-        {
-            InitializeComponent();
-        }
-
         private void CreateBtn_Click(object sender, EventArgs e)
         {
 
         }
+        public Form1()
+        {
+            InitializeComponent();
+        }  
     }
 }
